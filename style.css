@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;1,200&display=swap');
+
+body{
+    background-image: url("img/gg.jpg");
+    background-size:cover;
+    position: relative;
+    height: 100vh;
+  margin: 0;
+  font-family: 'Silkscreen', cursive !important;
+  padding: 0;
+}
+
+
+
+
+
+
+.er{
+    background-color: rgba(228, 15, 15, 0.911);
+    color: white;
+    height: 34px;
+    width: 105px;
+    border-color: rgba(226, 19, 19, 0.911);;
+    border-style: solid;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;    cursor:pointer;
+    transition: 1s;
+    position: relative;
+    z-index: 99;
+    
+
+}
+.er:hover{
+    background-color: rgba(231, 133, 133, 0.911);
+  
+
+    opacity: 2;
+    border-color: rgba(231, 133, 133, 6);
+    border-style: solid;
+    box-shadow: 5px 5px 10px rgba(226, 19, 19, 0.911);
+}
+.er:active{
+    background-color: rgb(8, 247, 247);
+    border-style: solid;
+    border-color:  rgb(8, 247, 247);
+    color: black;
+}
+
+

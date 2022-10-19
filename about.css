@@ -1,0 +1,120 @@
+
+
+.about{
+    background-color: rgb(57, 136, 90);
+    height: 34px;
+    width: 110px;
+    color: rgb(243, 237, 237);
+    border-radius: 8px;
+    border-color: rgb(57, 136, 90);
+    border-style: solid;
+    cursor: pointer;
+    transition: 2s;
+   
+}
+.about:hover{
+background-color: blue;
+border-color: blue;
+border-radius: 17px;
+color: rgb(241, 12, 12);
+box-shadow: 10px 10px 0.3px rgba(0, 0, 0, 0.3);
+
+}
+
+.about:active{
+background-color: rgb(236, 142, 19);
+    border-radius: 19px;
+    border-color: rgb(236, 142, 19);
+    box-shadow: 5px 5px 0.3px rgba(62, 111, 228, 0.3);
+    color: darkorchid;
+}
+
+body::after{
+    content: "";
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to left, black, rgb(169, 212, 169));
+    
+    background-image: url(img/chicken-2508631_1280.jpg);
+
+
+}
+.back-button{
+margin: 21px;
+color: rgb(255, 251, 251);
+background-color: rgb(48, 45, 42);
+border-color: rgb(39, 37, 34);
+height: 32px;
+width: 59px;
+border-style: solid;
+transition: 1.3s;
+
+}
+.back-button:hover{
+background-color: rgb(172, 153, 153);
+color: rgb(53, 53, 117);
+border-style: solid;
+border-color: rgb(182, 162, 162);
+box-shadow: 5px 6px 0.4px rgba(0, 0, 0, 0.3);
+
+}
+
+/* LIST CODES GO HERE */
+
+.list li{
+    display: inline-flex;
+}
+
+.list li a{
+    text-decoration: none;
+    padding: 10px;
+    transition: .5s;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.list li:first-child a, .list li:last-child{
+    background: linear-gradient(to left red, green)
+}
+
+.list li a:hover{
+    transform: translateY(-5px);
+    background: deepskyblue;
+    color: #fff;
+}
+
+
+/* IMAGE STYLES */
+.imgBox{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.imgBox img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    transition: 4.5s;
+}
+
+.imgBox::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.imgBox:hover img{
+    transform: scale(2);
+}
